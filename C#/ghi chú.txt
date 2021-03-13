@@ -1,0 +1,15 @@
+1> để khi chạy chương trình có xuất ra chữ có dấu thì ta cần như này
+	
+	Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+2> chú ý khi nhập một số từ bàn phím thì ta phải định dạng về thành kiểu ta muốn
+
+	biến = KDLcandinhdang.Parse(Console.ReadLine());
+	Console.ReadLine() được hiểu là nhập một chuỗi từ bàn phím
+
+3>truyền tham chiếu và truyền tham trị 
+
+	. truyên tham chiếu: out -> mình sẽ truyền vào trước cái biến dữ liệu đưa vào
+	và khi xuất thì cũng có từ khóa out phía trước
+
+	. truyền tham trị : ref
